@@ -12,6 +12,9 @@ import { RegisterComponent } from './login/register.component';
 // Modulos
 import { PageModule } from './pages/pages.module';
 
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { PageModule } from './pages/pages.module';
     BrowserModule,
     PageModule,
     APP_ROUTERS,
-    PAGES_ROUTES
+    PAGES_ROUTES,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

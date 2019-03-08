@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./progress.component.css']
 })
 export class ProgressComponent implements OnInit {
-
+  progreso = 20;
+  progreso2 = 30;
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
 }

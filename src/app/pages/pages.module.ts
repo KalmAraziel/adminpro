@@ -5,23 +5,30 @@ import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
+import { FormsModule } from '@angular/forms';
+import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+
+
 
 @NgModule({
   declarations: [
     PagesComponent,
     DashboardComponent,
     Graficas1Component,
-    ProgressComponent
+    ProgressComponent,
+    IncrementadorComponent
   ],
   exports: [
     PagesComponent,
     DashboardComponent,
     Graficas1Component,
-    ProgressComponent
+    ProgressComponent,
+    IncrementadorComponent
   ],
   imports: [
     SharedModule,
-    PAGES_ROUTES
+    PAGES_ROUTES,
+    FormsModule
   ]
 
 })

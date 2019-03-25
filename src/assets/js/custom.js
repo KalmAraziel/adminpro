@@ -4,8 +4,9 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
-function init_plugins() {
 
+// funcion que engloba todos los script m.ahumada
+function init_plugins() {
 
 
 $(function() {
